@@ -33,7 +33,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home-text, .home-img,
             .about-img, .about-text,
-            .box, .testimonial-box, 
+            .box, .testimonial-box, .box-top
             .btn, .connect-text,
             .contact-box`,  {
     interval: 200
