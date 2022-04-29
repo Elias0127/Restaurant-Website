@@ -243,18 +243,12 @@ header {
     background: #ffa400;
 }
 
-.servives-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
 
 a {
     text-decoration: none;
 }
 
-#testimonials {
+#reviews {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,33 +356,7 @@ a {
     transition: all ease 0.3s;
 }
 
-@media(max-width:1060px) {
-    .testimonial-box {
-        width: 45%;
-        padding: 10px;
-    }
-}
 
-@media(max-width:790px) {
-    .testimonial-box {
-        width: 100%;
-    }
-
-    .testimonial-heading h1 {
-        font-size: 1.4rem;
-    }
-}
-
-@media(max-width:340px) {
-    .box-top {
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-    }
-
-    .reviews {
-        margin-top: 10px;
-    }
-}
 
 ::selection {
     color: #ffffff;
@@ -549,5 +517,32 @@ a {
 
     .home-text {
         padding-top: 4rem;
+    }
+}
+@media(max-width:1060px) {
+    .testimonial-box {
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:790px) {
+    .testimonial-box {
+        width: 100%;
+    }
+
+    .testimonial-heading h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width:340px) {
+    .box-top {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .reviews {
+        margin-top: 10px;
     }
 }
